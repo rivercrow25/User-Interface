@@ -136,7 +136,7 @@ table {
 html,
 body {
   height: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Ibara Real Nova";
 }
 
 h1,
@@ -150,8 +150,16 @@ h5 {
 }
 
 /* Your code starts here! */
-
+@import url("https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap");
 /* header styles goes here */
+header {
+  background-color: rgb(4, 65, 231);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 header nav {
   display: inline-block;
   width: 80%;
