@@ -135,7 +135,7 @@ table {
 
 html,
 body {
-  height: 100%;
+  /* height: 100%; */
   font-family: "Titillium Web", sans-serif;
 }
 
@@ -208,7 +208,7 @@ h1 {
   margin-bottom: 3%;
 }
 
-/* features styles go here */
+/* container styles go here */
 .container {
   border-top: 5px black solid;
   border-bottom: 5px black solid;
@@ -226,4 +226,38 @@ h1 {
   display: inline-block;
   width: 45%;
   margin-left: 10%;
+}
+
+.container img {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+#services {
+  display: inline-block;
+  width: 25%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+#product {
+  display: inline-block;
+  width: 25%;
+  margin-left: 10%;
+}
+
+#vision {
+  display: inline-block;
+  width: 25%;
+  margin-left: 10%;
+}
+
+/* footer style goes here */
+footer {
+  margin-left: 9.9%;
+  margin-top: 2%;
+}
+
+.state {
+  margin-top: 2%;
 }
