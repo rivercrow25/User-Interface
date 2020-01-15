@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* header goes here */
+/* header styles goes here */
 header nav{
 	display: inline-block;
 	width: 80%;
@@ -81,18 +81,18 @@ header nav a{
 header img{
 	display: inline-block;
 }
-
+/* title styles go here */
 .title {
 	display: inline-block;
 	font-size: 40px;
-	width: 20%;
+	width: 30%;
 	vertical-align: top;
 	margin-top: 40px;
 	margin-left: 20%;
 }
 
 h1{
-	font-size: 50px;
+	font-size: 70px;
 }
 
 .title a{
@@ -102,7 +102,17 @@ h1{
 	font-size: 20px;
 	display: inline;
 	padding: 0 30px;
+	margin-left: 10%;
 }
+
+.on{
+	margin: 22%;
+}
+
+.demand{
+	margin-left: 7%;
+}
+
 .title-img{
 	display:inline-block
 }
